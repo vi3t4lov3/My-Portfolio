@@ -6,9 +6,12 @@
     --cerebral-grey: #CCC;
     --carbon: #333;
     --dim-grey:#6A6A6A;
+    --tu-nguyen: #D6D6D6;
+  }
+.bg-tunguyen {
+    background-color: var(--tu-nguyen);
   }
   nav {
-      background-color: #D8D8D8;
   }
 nav img {
     width: 50px;
@@ -29,6 +32,7 @@ header .header-info {
 header img {
     margin-top: 50px;
     min-height: 350px;
+    min-width: 200px;
     border-radius: 5px;
     box-shadow: 0 3px 5px var(--carbon);
 }
