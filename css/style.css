@@ -1,3 +1,15 @@
+:root {
+    --white: #fff;
+    --black: #000;
+    --denim-blue: #0171E3;
+    --ghost-white: #FDFDFF;
+    --cerebral-grey: #CCC;
+    --carbon: #333;
+    --dim-grey:#6A6A6A;
+  }
+  nav {
+      background-color: #D8D8D8;
+  }
 nav img {
     width: 50px;
     height: 50px;
@@ -7,4 +19,16 @@ nav img {
 nav span {
     font-size: 25px;
     /* text-decoration: none; */
+}
+header {
+
+}
+header .header-info {
+    margin-top: 50px;
+}
+header img {
+    margin-top: 50px;
+    min-height: 350px;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px var(--carbon);
 }
