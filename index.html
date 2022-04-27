@@ -40,7 +40,7 @@
     </nav>
 <main>
         <!-- ABOUT ME -->
-        <header id="about" class="container box-shadow my-3 d-sm-flex text-center text-sm-start py-2">
+        <header id="about" class="container about-me box-shadow my-3 d-sm-flex text-center text-sm-start py-2">
             <!-- col 1 -->
             <div class="my-4 row">
                 <div class="col-md">
@@ -85,7 +85,7 @@
 
 
         <!-- WORK EXPERIENCE -->
-        <div id="project" class="container box-shadow">
+        <!-- <div id="project" class="container box-shadow">
             <div class="mywork">
                 <h1>EXPERIENCE</h1>
             </div>
@@ -106,7 +106,7 @@
                     <p>&bull; Diagnose and repair hardware issues, completely built computers troubleshoot technical issues, and install software applications. </p>
                     <p>&bull; Consulting and collaborating with managers and team members.</p>  
             </div>
-        </div>
+        </div> -->
         <!-- EDUCATION -->
             <section id="education" class="p-2">
                 <div class="container box-shadow">
@@ -132,37 +132,83 @@
                 </div>
             </section>
         <!-- PORTFOLIO  -->
-        <div id="portfolio" class="box-shadow container my-3">
-        <header class="header">
-            <h1>MY PORTFOLIO</h1>
-            <h2>Here’s some stuff I made recently.</h2>
-            <p>Feel free to click on the images to connect to my github</p>
-        </header>
-        <div class="row">
-            <div class="portfolio-box">
-                <article class="box-style">
-                    <a href="https://github.com/vi3t4lov3/CSS-Snippet-Cheat-Sheet-Project" class="image featured"><img src="./img/pic01.png" alt="the code of cheatsheet" /></a>
-                    <h3><a href="https://github.com/vi3t4lov3/CSS-Snippet-Cheat-Sheet-Project">CSS Snippet Cheat Sheet</a></h3>
-                    <p>Mini project at Bootcamp Coding.</p>
-                </article>
+        <div id="portfolio" class="container box-shadow my-3">
+            <div class="py-2">
+                <h1>PROJECT</h1>
             </div>
+            <div class="card bg-light text-dark text-end py-2">
+                <img src="./img/MovieProject-1.png" width="100%" class="card-img" alt="...">
+                <div class="card-img">
+                    <h5 class="card-title">AMDB - Actor/Movie Database</h5>
+                    <p class="card-text">This project we has been created as a database to search actors/actresses or movies/tv show and be provided with a detailed description, trailer and movie information, and connections to GIFs that are correlated to the searched item to be shared with friends throughout social media. </p>
+                    <p class="card-text small-text">by me, Victoria Hendricks,Corey Levine & Lauren Anderson</p>
+                </div>
+            </div>
+            <div class="project-listing py-2">
+                <!-- listing 1 -->
+                <div class="col-md">
+                    <div class="card text-center" style="width: 18rem;">
+                        <img src="./img/Project-02.png" class="card-img-top" alt="screen shoot of forecast">
+                        <div class="card-body">
+                          <h5 class="card-title text-success">Weather Dashboard</h5>
+                          <p class="card-text">On this project I use the OpenWeather One Call API to retrieve weather data for cities. We search for a city. It presented with current and future conditions for that city</p>
+                          <a href="https://github.com/vi3t4lov3/HW6-Weather-Dashboard" target="_blank" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- end listing 1 -->
+                <!-- listing 2 -->
+                <div class="col-md">
+                    <div class="card text-center" style="width: 18rem;">
+                        <img src="./img/Project-03.png" class="card-img-top" alt="screen shoot of forecast">
+                        <div class="card-body">
+                          <h5 class="card-title text-warning">Console Log API</h5>
+                          <p class="card-text">To testing the API while you working on the project. To tired to re-write the function to fetch the APIS again & again... This is help you input the URL from the API to run the ouput from Console Log.</p>
+                          <a href="https://github.com/vi3t4lov3/get-apis-data" target="_blank" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- end listing 2 -->
+                <!-- listing 3 -->
+                <div class="col-md">
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                      </div>
+                </div>
+                <!-- end listing 3 -->
+                <!-- listing 4 -->
+                <div class="col-md">
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- end listing 4 -->
+                <!-- listing 5 -->
+                <div class="col-md">
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- end listing 5 -->
+            </div>
+        </div>
 
-            <div class="portfolio-box">
-                <article class="box-style">
-                    <a href="https://github.com/vi3t4lov3/HW1-Code-Refactor" class="image featured"><img src="./img/pic03.png" alt="pictures of the SEO" /></a>
-                    <h3><a href="https://github.com/vi3t4lov3/HW1-Code-Refactor">Code Refactor</a></h3>
-                    <p>First assignment on Bootcamp Course</p>
-                </article>
-            </div>
-            <div class="portfolio-box">
-                <article class="box-style">
-                    <a href="http://creativethemoment.com/photography/" class="image featured"><img src="./img/pic02.png" alt="picture took at God of Garden" /></a>
-                    <h3><a href="http://creativethemoment.com/photography/">Photo Shoot</a></h3>
-                    <p>This is side of my joy...</p>
-                </article>
-            </div>
-        </div>
-        </div>
+
         <!-- CONTACTcontact -->
         <div id="contact" class="box-shadow container my-3">
             <section class="p-2">
@@ -199,7 +245,7 @@
                                     <label>Message: </label>
                                     <input class="form-control border-primary" type="text" name="message" placeholder="Your message">
                                 </div>    
-                                <input class="btn btn-success btn-lg" type="submit" value="Sent" name="#"> 
+                                <input class="btn btn-success btn-lg my-1" type="submit" value="Sent" name="#"> 
                             </form>
                         </div>
                     </div>
