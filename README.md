@@ -19,6 +19,6 @@ $ cd My-Portfolio
 ## Portfolio Link
  https://vi3t4lov3.github.io/My-Portfolio/
 ## Desktop Demo
-![imagename](./img/Desktop.png)
+![imagename](./img/desktop.png)
 ## Mobile Demo
-![imagename](./img/Mobile.png)
+![imagename](./img/mobile.png)
