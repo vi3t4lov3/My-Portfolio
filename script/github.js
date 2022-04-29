@@ -1,7 +1,7 @@
 var textCountDownEl = document.querySelector('#countdown');
 var myRepos = document.getElementById('my-repos');
 var totalRepos =document.getElementById('total-repos');
-
+var totalProject =document.getElementById('total-project');
 //get my github repos
 function getRepos () {
     var url = `https://api.github.com/users/vi3t4lov3/repos`;
