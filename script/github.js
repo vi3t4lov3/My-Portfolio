@@ -14,13 +14,12 @@ function getRepos () {
         console.log(data);
         var reposName = '';
         var count = 1;
-        var reposUrl = '';
         // forEach is a functional way of iterating through an array without a for-loop
         data.forEach(getData => {
             reposName += `<li class="text-start">${getData.name}</li>\n`;
-            reposUrl += `${getData.html_url}\n`;
+            var reposUrl = `$dd{getData.html_url}\n`;
             totalRepos.textContent = `(${count++})`;
-            myRepos.innerHTML = `<a href="" target="_blank"> ${reposName}</a>`;
+            myRepos.innerHTML = `<a href="${reposUrl}" target="_blank"> ${reposName}</a>`;
             console.log(reposUrl)
         });
         // for (var i = 0; i < data.length; i++) {
